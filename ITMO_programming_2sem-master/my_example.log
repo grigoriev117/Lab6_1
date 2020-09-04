@@ -1,0 +1,81 @@
+2020/07/04 18:06:19.580 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:1388
+2020/07/04 18:06:42.592 [ INFO] main (Server.java) - Сервер закрыт
+2020/07/04 18:06:42.598 [ INFO] main (Server.java) - Коллекция сохранена
+2020/07/04 18:13:33.771 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:1388
+2020/07/04 18:15:46.942 [ INFO] main (Server.java) - Сервер закрыт
+2020/07/04 18:15:46.949 [ INFO] main (Server.java) - Коллекция сохранена
+2020/07/04 18:15:55.608 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:1388
+2020/07/04 18:18:15.303 [ INFO] main (Server.java) - Сервер закрыт
+2020/07/04 18:18:15.310 [ INFO] main (Server.java) - Коллекция сохранена
+2020/07/04 18:18:25.948 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:1388
+2020/07/04 18:19:12.929 [ INFO] main (Server.java) - Сервер закрыт
+2020/07/04 18:19:12.931 [ INFO] main (Server.java) - Коллекция сохранена
+2020/07/04 18:19:30.676 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:1388
+2020/07/04 18:19:36.684 [ INFO] main (Server.java) - Сервер закрыт
+2020/07/04 18:19:36.690 [ INFO] main (Server.java) - Коллекция сохранена
+2020/07/04 18:27:52.268 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:1380
+2020/07/04 18:29:17.304 [ INFO] main (Server.java) - Сервер закрыт
+2020/07/04 18:29:17.310 [ INFO] main (Server.java) - Коллекция сохранена
+2020/09/02 11:53:53.887 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:54673
+2020/09/02 11:54:01.896 [ INFO] main (Server.java) - Соединение уcтановлено: /127.0.0.1:54673
+2020/09/02 11:54:23.932 [ INFO] main (Server.java) - Вызвана команада: Command{current=HELP}
+2020/09/02 11:54:23.934 [ INFO] main (Server.java) - Комманда обработана успешно. Ответ:help : вывести справку по доступным командам
+info : вывести в стандартный поток вывода информацию о коллекции (тип, дата инициализации, количество элементов и т.д.)
+show : вывести в стандартный поток вывода все элементы коллекции в строковом представлении
+add {element} : добавить новый элемент в коллекцию
+update id {element} : обновить значение элемента коллекции, id которого равен заданному
+remove_by_id id : удалить элемент из коллекции по его id
+clear : очистить коллекцию
+save : сохранить коллекцию в файл
+execute_script file_name : считать и исполнить скрипт из указанного файла.
+В скрипте содержатся команды в таком же виде, в котором их вводит пользователь в интерактивном режиме.
+exit : завершить программу (без сохранения в файл)
+remove_first : удалить первый элемент из коллекции
+head : вывести первый элемент коллекции
+remove_head : вывести первый элемент коллекции и удалить его
+remove_all_by_weapon_type weaponType : удалить из коллекции все элементы, значение поля weaponType которого эквивалентно заданному
+group_counting_by_chapter : сгруппировать элементы коллекции по значению поля chapter, вывести количество элементов в каждой группе
+filter_less_than_loyal loyal : вывести элементы, значение поля loyal которых меньше заданного
+
+end
+2020/09/02 11:54:34.959 [ INFO] main (Server.java) - Соединение уcтановлено: /127.0.0.1:54673
+2020/09/02 11:55:10.976 [ INFO] main (Server.java) - Соединение уcтановлено: /127.0.0.1:54673
+2020/09/02 12:34:43.068 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:54673
+2020/09/02 12:35:08.083 [ INFO] main (Server.java) - Соединение уcтановлено: /127.0.0.1:54673
+2020/09/02 12:35:23.112 [ INFO] main (Server.java) - Вызвана команада: Command{current=SHOW}
+2020/09/02 12:35:23.113 [ INFO] main (Server.java) - Комманда обработана успешно. Ответ:SpaceMarine{id=2879965288810192896, name='John', coordinates=Coordinates{x=293, y=45.0}, creationDate=2020-09-02, health=272.0, loyal=false, achievements=ue, weaponType=PLASMA_GUN, chapter=Chapter{name=d2s, parentLegion=                       bs}}
+SpaceMarine{id=2188166950854543434, name='Kim', coordinates=Coordinates{x=266, y=49.0}, creationDate=2020-09-02, health=213.0, loyal=false, achievements=lse, weaponType=PLASMA_GUN, chapter=Chapter{name=drs, parentLegion=                       ds}}
+SpaceMarine{id=7843901272131342323, name='Kim', coordinates=Coordinates{x=236, y=49.0}, creationDate=2020-09-02, health=216.0, loyal=false, achievements=lse, weaponType=PLASMA_GUN, chapter=Chapter{name=dss, parentLegion=                       ds}}
+end
+2020/09/02 12:36:07.147 [ INFO] main (Server.java) - Соединение разорвано. Сервер продолжил работать.
+2020/09/02 12:36:40.161 [ INFO] main (Server.java) - Соединение уcтановлено: /127.0.0.1:54673
+2020/09/02 12:37:16.179 [ INFO] main (Server.java) - Вызвана команада: Command{current=SHOW}
+2020/09/02 12:37:16.180 [ INFO] main (Server.java) - Комманда обработана успешно. Ответ:SpaceMarine{id=2879965288810192896, name='John', coordinates=Coordinates{x=293, y=45.0}, creationDate=2020-09-02, health=272.0, loyal=false, achievements=ue, weaponType=PLASMA_GUN, chapter=Chapter{name=d2s, parentLegion=                       bs}}
+SpaceMarine{id=2188166950854543434, name='Kim', coordinates=Coordinates{x=266, y=49.0}, creationDate=2020-09-02, health=213.0, loyal=false, achievements=lse, weaponType=PLASMA_GUN, chapter=Chapter{name=drs, parentLegion=                       ds}}
+SpaceMarine{id=7843901272131342323, name='Kim', coordinates=Coordinates{x=236, y=49.0}, creationDate=2020-09-02, health=216.0, loyal=false, achievements=lse, weaponType=PLASMA_GUN, chapter=Chapter{name=dss, parentLegion=                       ds}}
+end
+2020/09/02 12:37:48.204 [ INFO] main (Server.java) - Вызвана команада: CommandLonArg{id=7843901272131342323}
+2020/09/02 12:37:48.204 [ INFO] main (Server.java) - Комманда обработана успешно. Ответ:Элемент с id: 7843901272131342323 успешно удален
+end
+2020/09/02 12:37:53.205 [ INFO] main (Server.java) - Вызвана команада: Command{current=SHOW}
+2020/09/02 12:37:53.206 [ INFO] main (Server.java) - Комманда обработана успешно. Ответ:SpaceMarine{id=2879965288810192896, name='John', coordinates=Coordinates{x=293, y=45.0}, creationDate=2020-09-02, health=272.0, loyal=false, achievements=ue, weaponType=PLASMA_GUN, chapter=Chapter{name=d2s, parentLegion=                       bs}}
+SpaceMarine{id=2188166950854543434, name='Kim', coordinates=Coordinates{x=266, y=49.0}, creationDate=2020-09-02, health=213.0, loyal=false, achievements=lse, weaponType=PLASMA_GUN, chapter=Chapter{name=drs, parentLegion=                       ds}}
+end
+2020/09/02 12:41:46.312 [ERROR] main (Server.java) - Пренудительное закрытие сервера.
+2020/09/02 12:41:46.313 [ERROR] main (Server.java) - Удаленный хост принудительно разорвал существующее подключение
+2020/09/02 12:41:46.315 [ INFO] main (Server.java) - Коллекция сохранена
+2020/09/02 12:42:19.796 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:54673
+2020/09/02 12:42:29.803 [ INFO] main (Server.java) - Соединение уcтановлено: /127.0.0.1:54673
+2020/09/02 12:42:45.831 [ INFO] main (Server.java) - Вызвана команада: Command{current=SHOW}
+2020/09/02 12:42:45.832 [ INFO] main (Server.java) - Комманда обработана успешно. Ответ:SpaceMarine{id=2879965288810192896, name='John', coordinates=Coordinates{x=293, y=45.0}, creationDate=2020-09-02, health=272.0, loyal=false, achievements=ue, weaponType=PLASMA_GUN, chapter=Chapter{name=d2s, parentLegion=                        bs}}
+SpaceMarine{id=2188166950854543434, name='Kim', coordinates=Coordinates{x=266, y=49.0}, creationDate=2020-09-02, health=213.0, loyal=false, achievements=lse, weaponType=PLASMA_GUN, chapter=Chapter{name=drs, parentLegion=                        ds}}
+end
+2020/09/02 12:43:06.857 [ INFO] main (Server.java) - Соединение разорвано. Сервер продолжил работать.
+2020/09/02 12:43:40.874 [ INFO] main (Server.java) - Соединение уcтановлено: /127.0.0.1:54673
+2020/09/02 12:44:20.897 [ INFO] main (Server.java) - Соединение разорвано. Сервер продолжил работать.
+2020/09/02 12:59:35.093 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:54673
+2020/09/02 13:00:00.393 [ERROR] main (Server.java) - Пренудительное закрытие сервера.
+2020/09/02 13:00:00.396 [ERROR] main (Server.java) - Address already in use: bind
+2020/09/02 13:00:00.398 [ INFO] main (Server.java) - Коллекция сохранена
+2020/09/02 13:00:18.151 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:54673
+2020/09/02 13:00:36.853 [ INFO] main (Server.java) - Сервер запущен. /127.0.0.1:54673
